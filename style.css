@@ -288,17 +288,16 @@ p {
     margin: auto;
     background-color: rgba(255, 255, 255, 0.5);
     text-align: center;
-    display: inline-block;
 }
 
-#s-4 .item h2 {
+#s-4 .i-1 h2 {
     color: var(--app-main-color);
     font-size: 3em;
     font-family: 'Courier New', Courier, monospace;
     padding-top: 30px;
 }
 
-#s-4 .item h1 {
+#s-4 .i-1 h1 {
     font-size: 3em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: var(--app-gold-color);
@@ -309,46 +308,47 @@ p {
     padding: 0;
 }
 
-.secims{
-    margin-top: 100px;
-    width: 100%;
+#s-4 .i-2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#s-4 .i-21 {
+    width: 50%;
+    margin: auto;
+}
+
+#s-4 .i-22 {
+    width: 50%;
+    margin: auto;
+}
+
+#s-4 .lielement {
+    width: 80%;
     margin: auto;
     display: flex;
 }
 
-#s-4 .secimler-1 {
-    width: 50%;
+#s-4 .e-1 {
+    width: 30%;
     margin: auto;
+    margin: 0;
+    padding: 0;
 }
 
-#s-4 .secimler-2 {
-    width: 50%;
+#s-4 .e-2 {
+    width: 70%;
     margin: auto;
-    margin-right: 200px;
-}
-
-#s-4 ul {
-    width: 100%;
-    margin: auto;
-    display: inline;
-
-}
-
-#s-4 ul li {
-    width: 100%;
-    margin: auto;
-    margin-top: 30px;
-    margin-bottom: 15px;
+    margin: 0;
+    padding: 0;
 }
 
 #s-4 .circle {
     width: 50px;
     height: 50px;
-    border-radius: 50%;
-    background-color: blueviolet;
-    float: left;
-    margin-left: 100px;
+    margin: auto;
     margin-top: 5px;
+    border-radius: 50%;
 }
 
 #s-4 .circle i {
@@ -361,39 +361,109 @@ p {
     font-size: 2.5em;
 }
 
- .word {
-    width: 60%;
-    margin: auto;
-    margin-left: 15px;
-}
-
-#s-4 p {
-    margin-top: 0;
-    font: size 0.8em;
-    font-style: italic;
-    color: var(--app-second-color);
-}
-
-#s-4 .secimler-2 p {
-    padding-left: 100px;
-    margin-top: 0;
-    font: size 0.8em;
-    font-style: italic;
-    color: var(--app-second-color);
-}
-
- .word h3 {
+#s-4 .e-2 h3 {
     font-size: 1.2em;
     color: var(--app-main-color);
     font-weight: 650;
+    text-align: left;
     text-transform: uppercase;
-
 }
 
+#s-4 .e-2 p {
+    margin-top: 5px;
+    font: size 0.8em;
+    font-style: italic;
+    color: var(--app-second-color);
+    text-align: left;
+}
 
-.secimler-1 .item {
-    width: 50px;
+#s-4 ul {
+    width: 100%;
     margin: auto;
+    display: inline-block;
+}
+
+#s-4 ul li {
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.e-2 span {
+    font-weight: bolder;
+}
+
+#s-4 .i-3 {
+    margin-top: 500px;
+    background-color: var(--app-main-color);
+}
+
+#s-4>.i-3>h3 {
+    font-size: 2.4em;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 50px;
+}
+
+#s-4 .lists {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    height: 40vh;
+}
+
+#s-4 .lists .i-1 {
+    width: 32%;
+    margin: auto;
+    display: inline-block;
+}
+
+#s-4 .lists .i-2 {
+    width: 32%;
+    margin: auto;
+    display: inline-block;
+}
+
+#s-4 .lists .i-3 {
+    width: 32%;
+    margin: auto;
+    display: inline-block;
+}
+
+.sections {
+    width: 80%;
+    margin: auto;
+    text-align: left;
+}
+
+.sections label {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.sections #cars,
+#selectname,
+#mydate , .button, #appt, #phonetext{
+    width: 80%;
+    margin: auto;
+    border-color: var(--app-light-color);
+    background-color: var(--app-main-color);
+    color: var(--app-light-color);
+    font-size: 1.2em;
+    font-weight: 450;
+    text-align: left;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+
+#Button {
+    text-align: center;
+    margin-top: 50px;
 }
 
 /* Section s-4 End */
